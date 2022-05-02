@@ -24,3 +24,4 @@
 1. figure out a way to switch turns
 
 ## Lessons Learnt
+1. for switching turns I'm going to use the % to count the even and odd clicks and an 'if' statement to determin the parameters for the different clicks.
