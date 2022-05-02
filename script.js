@@ -98,4 +98,3 @@ ticTacToeBoxes.addEventListener('click', function(event) {
     }
 })
 
-
