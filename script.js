@@ -14,10 +14,9 @@ var box6 = document.querySelector('.box6')
 var box7 = document.querySelector('.box7')
 var box8 = document.querySelector('.box8')
 var box9 = document.querySelector('.box9')
-var colum1 = document.querySelectorAll('.colum1') 
- 
-
+var allboxs = document.querySelectorAll('div')
 var ticTacToeBoxes = document.querySelector('main')
+
 var count = 0
 
 
@@ -60,6 +59,7 @@ function winningConditionCrossFrom3(player){
     if(box3.textContent === player && box5.textContent === player && box7.textContent === player) {
         alert(player + " Wins")
     }
+   
 }
 
 
@@ -92,8 +92,10 @@ ticTacToeBoxes.addEventListener('click', function(event) {
         winningConditionColum3('o')
         winningConditionCrossFrom1('o')
         winningConditionCrossFrom3('o')
-        }
+    }
+    if (count === 9) {
+        alert("Good Game, but it's a draw!")
+    }
 })
-
 
 
