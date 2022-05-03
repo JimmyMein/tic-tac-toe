@@ -3,21 +3,22 @@ body    {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: bisque;
+    background-image: url(./tic-tacs-1420767_960_720.jpeg);
+    background-size: cover;
 }
 main {
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
     justify-content: center;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 70);
 }
 div {
     border: 1px solid black;
 }
 
 .x {
-    background-color: rgb(157, 70, 219);
+    background-color: rgb(253, 140, 54);
     border: 1px solid black;
     font-size: 75px;
     color: aliceblue;
@@ -27,10 +28,10 @@ div {
 
 
 .o {
-    background-color: rgb(37, 145, 50);
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     font-size: 75px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
